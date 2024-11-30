@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="content">
+    <!-- Page Aujourd'hui -->
+    <div id="today" class="page">
+      <h1>Aujourd'hui</h1>
+      <ul id="today-list">
+        <!-- Liste des tâches pour aujourd'hui -->
+      </ul>
+      <button id="add-today" class="add-button">+</button>
+    </div>
+
+    <!-- Page Semaine -->
+    <div id="week" class="page">
+      <h1>Semaine</h1>
+      <ul id="week-list">
+        <!-- Liste des tâches pour la semaine -->
+      </ul>
+      <button id="add-week" class="add-button">+</button>
+    </div>
+
+    <!-- Page Mois -->
+    <div id="month" class="page">
+      <h1>Mois</h1>
+      <ul id="month-list">
+        <!-- Liste des tâches pour le mois -->
+      </ul>
+      <button id="add-month" class="add-button">+</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <button class="footer-btn" id="footer-today">Aujourd'hui</button>
+    <button class="footer-btn" id="footer-week">Semaine</button>
+    <button class="footer-btn" id="footer-month">Mois</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
